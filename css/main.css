@@ -1,0 +1,126 @@
+body {
+  background-color:#F0f0f0;
+  font-family: sans-serif;
+  font-size:16px;
+  padding:4px;
+}
+
+header div {
+  display: inline-block;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+header div img {
+  width: 45px;
+  height: 45px;
+}
+
+
+#content {
+  width:400px;
+  background-color:#c0c0c0;
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#inner{
+  text-align: center;
+}
+
+#entry {
+  width:200px;
+  font-family: sans-serif;
+  height:40px;
+  border-radius: 6px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+
+#add {
+  font-family: sans-serif;
+  width:70px;
+  height:48px;
+  margin:10px;
+  display:inline-block;
+  font-size: 20px;
+  background-color: white;
+  padding:4px;
+  border-radius: 6px;
+  border-width:2px;
+  border-style: groove;
+  border-color:silver;
+  vertical-align: middle;
+}
+
+.food {
+  font-family: sans-serif;
+  width:270px;
+  margin-left: 30px;
+  margin-right: auto;
+  display:inline-block;
+  font-size: 20px;
+  background-color: white;
+  padding:4px;
+  padding-left: 8px;
+  border-radius: 6px;
+  border-width:2px;
+  border-style: groove;
+  border-color:silver;
+  text-align: center;
+  margin: 5px;
+}
+
+.checked_food {
+  background-color:transparent;
+  border-style: none;
+  color:black;
+  text-decoration: line-through;
+}
+
+p {
+  font-size: 14px;
+  text-align: left;
+  line-height: 4px;
+  padding-left: 4px;
+}
+
+.cbox{
+  float: left;
+}
+
+.css-checkbox {
+  
+  display:inline-block;
+  text-align: right;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  font-size:15px;
+  vertical-align:middle;
+  cursor:pointer;
+  float:right;
+  background-position: 0 -15px;
+  background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);
+}
+
+
+.lite-x-red{
+  background-image:url('../images/red.png');
+  background-repeat:no-repeat;
+    font-size:15px;
+  vertical-align:middle;
+  cursor:pointer;
+  float:right;
+  height: 13px;
+  margin-top: 2px;
+  width: 13px;
+  
+  
+
+
+
+}
